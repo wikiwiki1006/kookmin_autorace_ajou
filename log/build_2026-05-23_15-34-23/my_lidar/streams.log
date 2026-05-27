@@ -1,0 +1,25 @@
+[1.494s] Invoking command in '/home/yoon/xycar_ws/build/my_lidar': AMENT_PREFIX_PATH=/home/yoon/xycar_ws/install/xycar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yoon/xycar_ws/install/xycar_msgs LD_LIBRARY_PATH=/home/yoon/xycar_ws/install/xycar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yoon/xycar_ws/build/my_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages:/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_lidar/build --no-deps symlink_data
+[1.784s] running develop
+[1.962s] running egg_info
+[1.962s] creating my_lidar.egg-info
+[1.964s] writing my_lidar.egg-info/PKG-INFO
+[1.964s] writing dependency_links to my_lidar.egg-info/dependency_links.txt
+[1.965s] writing entry points to my_lidar.egg-info/entry_points.txt
+[1.965s] writing requirements to my_lidar.egg-info/requires.txt
+[1.965s] writing top-level names to my_lidar.egg-info/top_level.txt
+[1.965s] writing manifest file 'my_lidar.egg-info/SOURCES.txt'
+[1.966s] reading manifest file 'my_lidar.egg-info/SOURCES.txt'
+[1.966s] writing manifest file 'my_lidar.egg-info/SOURCES.txt'
+[1.968s] running build_ext
+[1.969s] Creating /home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages/my-lidar.egg-link (link to .)
+[1.969s] Installing lidar_scan script to /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar
+[1.970s] Installing lidar_viewer script to /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar
+[1.971s] 
+[1.971s] Installed /home/yoon/xycar_ws/build/my_lidar
+[1.971s] running symlink_data
+[1.971s] creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index
+[1.972s] creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index
+[1.972s] creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index/packages
+[1.973s] symbolically linking /home/yoon/xycar_ws/build/my_lidar/resource/my_lidar -> /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index/packages
+[1.973s] symbolically linking /home/yoon/xycar_ws/build/my_lidar/package.xml -> /home/yoon/xycar_ws/install/my_lidar/share/my_lidar
+[2.006s] Invoked command in '/home/yoon/xycar_ws/build/my_lidar' returned '0': AMENT_PREFIX_PATH=/home/yoon/xycar_ws/install/xycar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yoon/xycar_ws/install/xycar_msgs LD_LIBRARY_PATH=/home/yoon/xycar_ws/install/xycar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yoon/xycar_ws/build/my_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages:/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_lidar/build --no-deps symlink_data

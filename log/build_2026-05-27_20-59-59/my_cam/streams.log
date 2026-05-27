@@ -1,0 +1,19 @@
+[2.352s] Invoking command in '/home/yoon/xycar_ws/build/my_cam': PYTHONPATH=/home/yoon/xycar_ws/build/my_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_cam/build --no-deps symlink_data --force
+[2.858s] running develop
+[3.166s] running egg_info
+[3.166s] writing my_cam.egg-info/PKG-INFO
+[3.168s] writing dependency_links to my_cam.egg-info/dependency_links.txt
+[3.168s] writing entry points to my_cam.egg-info/entry_points.txt
+[3.169s] writing requirements to my_cam.egg-info/requires.txt
+[3.169s] writing top-level names to my_cam.egg-info/top_level.txt
+[3.175s] reading manifest file 'my_cam.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'my_cam.egg-info/SOURCES.txt'
+[3.181s] running build_ext
+[3.182s] Creating /home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages/my-cam.egg-link (link to .)
+[3.183s] Installing cam_viewer script to /home/yoon/xycar_ws/install/my_cam/lib/my_cam
+[3.187s] 
+[3.187s] Installed /home/yoon/xycar_ws/build/my_cam
+[3.188s] running symlink_data
+[3.188s] symbolically linking /home/yoon/xycar_ws/build/my_cam/resource/my_cam -> /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index/packages
+[3.190s] symbolically linking /home/yoon/xycar_ws/build/my_cam/package.xml -> /home/yoon/xycar_ws/install/my_cam/share/my_cam
+[3.281s] Invoked command in '/home/yoon/xycar_ws/build/my_cam' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_cam/build --no-deps symlink_data --force

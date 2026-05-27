@@ -1,0 +1,20 @@
+[3.201s] Invoking command in '/home/yoon/xycar_ws/build/my_motor': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data --force
+[3.785s] running develop
+[4.153s] running egg_info
+[4.154s] writing my_motor.egg-info/PKG-INFO
+[4.156s] writing dependency_links to my_motor.egg-info/dependency_links.txt
+[4.156s] writing entry points to my_motor.egg-info/entry_points.txt
+[4.156s] writing requirements to my_motor.egg-info/requires.txt
+[4.157s] writing top-level names to my_motor.egg-info/top_level.txt
+[4.160s] reading manifest file 'my_motor.egg-info/SOURCES.txt'
+[4.161s] writing manifest file 'my_motor.egg-info/SOURCES.txt'
+[4.164s] running build_ext
+[4.165s] Creating /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my-motor.egg-link (link to .)
+[4.166s] Installing go script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[4.166s] Installing go_stop script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[4.167s] 
+[4.167s] Installed /home/yoon/xycar_ws/build/my_motor
+[4.168s] running symlink_data
+[4.168s] symbolically linking /home/yoon/xycar_ws/build/my_motor/resource/my_motor -> /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index/packages
+[4.168s] symbolically linking /home/yoon/xycar_ws/build/my_motor/package.xml -> /home/yoon/xycar_ws/install/my_motor/share/my_motor
+[4.314s] Invoked command in '/home/yoon/xycar_ws/build/my_motor' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data --force

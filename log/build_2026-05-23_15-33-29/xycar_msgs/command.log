@@ -1,0 +1,2 @@
+Invoking command in '/home/yoon/xycar_ws/build/xycar_msgs': /usr/bin/cmake /home/yoon/xycar_ws/src/xycar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yoon/xycar_ws/install/xycar_msgs
+Invoked command in '/home/yoon/xycar_ws/build/xycar_msgs' returned '1': /usr/bin/cmake /home/yoon/xycar_ws/src/xycar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yoon/xycar_ws/install/xycar_msgs

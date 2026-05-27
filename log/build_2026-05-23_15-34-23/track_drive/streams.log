@@ -1,0 +1,17 @@
+[1.664s] Invoking command in '/home/yoon/xycar_ws/build/track_drive': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build --no-deps symlink_data
+[2.019s] running develop
+[2.251s] running egg_info
+[2.251s] writing track_drive.egg-info/PKG-INFO
+[2.251s] writing dependency_links to track_drive.egg-info/dependency_links.txt
+[2.252s] writing entry points to track_drive.egg-info/entry_points.txt
+[2.252s] writing requirements to track_drive.egg-info/requires.txt
+[2.252s] writing top-level names to track_drive.egg-info/top_level.txt
+[2.253s] reading manifest file 'track_drive.egg-info/SOURCES.txt'
+[2.254s] writing manifest file 'track_drive.egg-info/SOURCES.txt'
+[2.255s] running build_ext
+[2.256s] Creating /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track-drive.egg-link (link to .)
+[2.257s] Installing track_drive script to /home/yoon/xycar_ws/install/track_drive/lib/track_drive
+[2.258s] 
+[2.258s] Installed /home/yoon/xycar_ws/build/track_drive
+[2.259s] running symlink_data
+[2.315s] Invoked command in '/home/yoon/xycar_ws/build/track_drive' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build --no-deps symlink_data

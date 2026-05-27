@@ -1,0 +1,25 @@
+[1.563s] Invoking command in '/home/yoon/xycar_ws/build/my_motor': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data
+[1.858s] running develop
+[1.974s] running egg_info
+[1.974s] creating my_motor.egg-info
+[1.975s] writing my_motor.egg-info/PKG-INFO
+[1.976s] writing dependency_links to my_motor.egg-info/dependency_links.txt
+[1.976s] writing entry points to my_motor.egg-info/entry_points.txt
+[1.976s] writing requirements to my_motor.egg-info/requires.txt
+[1.977s] writing top-level names to my_motor.egg-info/top_level.txt
+[1.978s] writing manifest file 'my_motor.egg-info/SOURCES.txt'
+[1.979s] reading manifest file 'my_motor.egg-info/SOURCES.txt'
+[1.980s] writing manifest file 'my_motor.egg-info/SOURCES.txt'
+[1.982s] running build_ext
+[1.982s] Creating /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my-motor.egg-link (link to .)
+[1.984s] Installing go script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[1.985s] Installing go_stop script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[1.986s] 
+[1.986s] Installed /home/yoon/xycar_ws/build/my_motor
+[1.986s] running symlink_data
+[1.987s] creating /home/yoon/xycar_ws/install/my_motor/share/ament_index
+[1.987s] creating /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index
+[1.988s] creating /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index/packages
+[1.989s] symbolically linking /home/yoon/xycar_ws/build/my_motor/resource/my_motor -> /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index/packages
+[1.989s] symbolically linking /home/yoon/xycar_ws/build/my_motor/package.xml -> /home/yoon/xycar_ws/install/my_motor/share/my_motor
+[2.067s] Invoked command in '/home/yoon/xycar_ws/build/my_motor' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data

@@ -1,0 +1,41 @@
+[4.052s] Invoking command in '/home/yoon/xycar_ws/build/track_drive': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build
+[4.743s] running develop
+[5.131s] Removing /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track-drive.egg-link (link to .)
+[5.265s] Invoked command in '/home/yoon/xycar_ws/build/track_drive' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build
+[5.269s] Invoking command in '/home/yoon/xycar_ws/src/track_drive': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track_drive build --build-base /home/yoon/xycar_ws/build/track_drive/build install --record /home/yoon/xycar_ws/build/track_drive/install.log --single-version-externally-managed install_data --force
+[5.856s] running egg_info
+[5.858s] writing ../../build/track_drive/track_drive.egg-info/PKG-INFO
+[5.859s] writing dependency_links to ../../build/track_drive/track_drive.egg-info/dependency_links.txt
+[5.860s] writing entry points to ../../build/track_drive/track_drive.egg-info/entry_points.txt
+[5.860s] writing requirements to ../../build/track_drive/track_drive.egg-info/requires.txt
+[5.860s] writing top-level names to ../../build/track_drive/track_drive.egg-info/top_level.txt
+[5.865s] reading manifest file '../../build/track_drive/track_drive.egg-info/SOURCES.txt'
+[5.870s] adding license file 'LICENSE'
+[5.871s] writing manifest file '../../build/track_drive/track_drive.egg-info/SOURCES.txt'
+[5.871s] running build
+[5.873s] running build_py
+[5.873s] creating /home/yoon/xycar_ws/build/track_drive/build
+[5.873s] creating /home/yoon/xycar_ws/build/track_drive/build/lib
+[5.874s] creating /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive
+[5.875s] copying track_drive/lane_detection.py -> /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive
+[5.876s] copying track_drive/track_drive.py -> /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive
+[5.876s] copying track_drive/__init__.py -> /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive
+[5.877s] running install
+[5.878s] running install_lib
+[5.880s] creating /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive
+[5.882s] copying /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive/lane_detection.py -> /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive
+[5.883s] copying /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive/track_drive.py -> /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive
+[5.884s] copying /home/yoon/xycar_ws/build/track_drive/build/lib/track_drive/__init__.py -> /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive
+[5.885s] byte-compiling /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive/lane_detection.py to lane_detection.cpython-310.pyc
+[5.889s] byte-compiling /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive/track_drive.py to track_drive.cpython-310.pyc
+[5.891s] byte-compiling /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive/__init__.py to __init__.cpython-310.pyc
+[5.891s] running install_data
+[5.891s] copying resource/track_drive -> /home/yoon/xycar_ws/install/track_drive/share/ament_index/resource_index/packages
+[5.892s] copying package.xml -> /home/yoon/xycar_ws/install/track_drive/share/track_drive
+[5.892s] running install_egg_info
+[5.897s] Copying ../../build/track_drive/track_drive.egg-info to /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track_drive-0.0.0-py3.10.egg-info
+[5.904s] running install_scripts
+[5.963s] Installing lane_detection script to /home/yoon/xycar_ws/install/track_drive/lib/track_drive
+[5.963s] Installing track_drive script to /home/yoon/xycar_ws/install/track_drive/lib/track_drive
+[5.964s] writing list of installed files to '/home/yoon/xycar_ws/build/track_drive/install.log'
+[6.088s] Invoked command in '/home/yoon/xycar_ws/src/track_drive' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track_drive build --build-base /home/yoon/xycar_ws/build/track_drive/build install --record /home/yoon/xycar_ws/build/track_drive/install.log --single-version-externally-managed install_data --force

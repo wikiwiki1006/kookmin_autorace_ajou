@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_cam.egg-info/PKG-INFO
+writing dependency_links to my_cam.egg-info/dependency_links.txt
+writing entry points to my_cam.egg-info/entry_points.txt
+writing requirements to my_cam.egg-info/requires.txt
+writing top-level names to my_cam.egg-info/top_level.txt
+reading manifest file 'my_cam.egg-info/SOURCES.txt'
+writing manifest file 'my_cam.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages/my-cam.egg-link (link to .)
+Installing cam_viewer script to /home/yoon/xycar_ws/install/my_cam/lib/my_cam
+
+Installed /home/yoon/xycar_ws/build/my_cam
+running symlink_data
+symbolically linking /home/yoon/xycar_ws/build/my_cam/resource/my_cam -> /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index/packages
+symbolically linking /home/yoon/xycar_ws/build/my_cam/package.xml -> /home/yoon/xycar_ws/install/my_cam/share/my_cam

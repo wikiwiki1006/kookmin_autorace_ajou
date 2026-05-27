@@ -1,0 +1,493 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (my_imu) JobQueued: {'identifier': 'my_imu', 'dependencies': OrderedDict()}
+[0.000372] (my_motor) JobQueued: {'identifier': 'my_motor', 'dependencies': OrderedDict()}
+[0.000436] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000486] (track_drive) JobQueued: {'identifier': 'track_drive', 'dependencies': OrderedDict()}
+[0.000535] (xycar_msgs) JobQueued: {'identifier': 'xycar_msgs', 'dependencies': OrderedDict()}
+[0.000585] (kookmin9_viewer) JobQueued: {'identifier': 'kookmin9_viewer', 'dependencies': OrderedDict([('xycar_msgs', '/home/yoon/xycar_ws/install/xycar_msgs')])}
+[0.000636] (my_cam) JobQueued: {'identifier': 'my_cam', 'dependencies': OrderedDict([('xycar_msgs', '/home/yoon/xycar_ws/install/xycar_msgs')])}
+[0.000687] (my_lidar) JobQueued: {'identifier': 'my_lidar', 'dependencies': OrderedDict([('xycar_msgs', '/home/yoon/xycar_ws/install/xycar_msgs')])}
+[0.000736] (xycar_msgs) JobStarted: {'identifier': 'xycar_msgs'}
+[0.007346] (my_imu) JobStarted: {'identifier': 'my_imu'}
+[0.013130] (my_motor) JobStarted: {'identifier': 'my_motor'}
+[0.020326] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.026443] (track_drive) JobStarted: {'identifier': 'track_drive'}
+[0.033025] (xycar_msgs) JobProgress: {'identifier': 'xycar_msgs', 'progress': 'cmake'}
+[0.033810] (xycar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/yoon/xycar_ws/src/xycar_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yoon/xycar_ws/install/xycar_msgs'], 'cwd': '/home/yoon/xycar_ws/build/xycar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoon'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yoon'), ('OLDPWD', '/home/yoon/xycar_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yoon'), ('NAME', 'DESKTOP-6G5L0D5'), ('WSL_INTEROP', '/run/WSL/533_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yoon/xycar_ws/build/xycar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098930] (-) TimerEvent: {}
+[0.199323] (-) TimerEvent: {}
+[0.299742] (-) TimerEvent: {}
+[0.400135] (-) TimerEvent: {}
+[0.500544] (-) TimerEvent: {}
+[0.600940] (-) TimerEvent: {}
+[0.701321] (-) TimerEvent: {}
+[0.801754] (-) TimerEvent: {}
+[0.902210] (-) TimerEvent: {}
+[0.906058] (xycar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.907952] (xycar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.908166] (xycar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.908357] (xycar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.908545] (xycar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.908733] (xycar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.908919] (xycar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.909106] (xycar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.909293] (xycar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.002385] (-) TimerEvent: {}
+[1.102774] (-) TimerEvent: {}
+[1.123730] (xycar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.203113] (-) TimerEvent: {}
+[1.303502] (-) TimerEvent: {}
+[1.403865] (-) TimerEvent: {}
+[1.504262] (-) TimerEvent: {}
+[1.548359] (xycar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604442] (-) TimerEvent: {}
+[1.648061] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/ros_tcp_endpoint/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/ros_tcp_endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/ros_tcp_endpoint', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.687680] (track_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/track_drive/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/track_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/track_drive', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.692000] (my_imu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/my_imu/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/my_imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/my_imu', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/my_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_imu/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.703267] (my_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/my_motor/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/my_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/my_motor', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.705713] (-) TimerEvent: {}
+[1.806056] (-) TimerEvent: {}
+[1.906476] (-) TimerEvent: {}
+[2.006987] (-) TimerEvent: {}
+[2.021193] (my_imu) StdoutLine: {'line': b'running develop\n'}
+[2.026551] (ros_tcp_endpoint) StdoutLine: {'line': b'running develop\n'}
+[2.045297] (track_drive) StdoutLine: {'line': b'running develop\n'}
+[2.053503] (my_motor) StdoutLine: {'line': b'running develop\n'}
+[2.078326] (xycar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.107152] (-) TimerEvent: {}
+[2.207605] (-) TimerEvent: {}
+[2.216915] (my_imu) StdoutLine: {'line': b'running egg_info\n'}
+[2.217373] (my_imu) StdoutLine: {'line': b'writing my_imu.egg-info/PKG-INFO\n'}
+[2.217535] (my_imu) StdoutLine: {'line': b'writing dependency_links to my_imu.egg-info/dependency_links.txt\n'}
+[2.218004] (my_imu) StdoutLine: {'line': b'writing entry points to my_imu.egg-info/entry_points.txt\n'}
+[2.218288] (my_imu) StdoutLine: {'line': b'writing requirements to my_imu.egg-info/requires.txt\n'}
+[2.218681] (my_imu) StdoutLine: {'line': b'writing top-level names to my_imu.egg-info/top_level.txt\n'}
+[2.220270] (my_imu) StdoutLine: {'line': b"reading manifest file 'my_imu.egg-info/SOURCES.txt'\n"}
+[2.221066] (my_imu) StdoutLine: {'line': b"writing manifest file 'my_imu.egg-info/SOURCES.txt'\n"}
+[2.222511] (my_imu) StdoutLine: {'line': b'running build_ext\n'}
+[2.222754] (my_imu) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/my_imu/lib/python3.10/site-packages/my-imu.egg-link (link to .)\n'}
+[2.223874] (my_imu) StdoutLine: {'line': b'Installing roll_pitch_yaw script to /home/yoon/xycar_ws/install/my_imu/lib/my_imu\n'}
+[2.224232] (my_imu) StdoutLine: {'line': b'\n'}
+[2.224475] (my_imu) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/my_imu\n'}
+[2.224717] (my_imu) StdoutLine: {'line': b'running symlink_data\n'}
+[2.239529] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[2.239790] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[2.240214] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[2.240968] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[2.241221] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ros_tcp_endpoint.egg-info/requires.txt\n'}
+[2.241503] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[2.245318] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.246715] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.249067] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_ext\n'}
+[2.249336] (ros_tcp_endpoint) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)\n'}
+[2.251083] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[2.251485] (ros_tcp_endpoint) StdoutLine: {'line': b'\n'}
+[2.251631] (ros_tcp_endpoint) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/ros_tcp_endpoint\n'}
+[2.252026] (ros_tcp_endpoint) StdoutLine: {'line': b'running symlink_data\n'}
+[2.268064] (my_imu) CommandEnded: {'returncode': 0}
+[2.275469] (track_drive) StdoutLine: {'line': b'running egg_info\n'}
+[2.277362] (track_drive) StdoutLine: {'line': b'writing track_drive.egg-info/PKG-INFO\n'}
+[2.277596] (track_drive) StdoutLine: {'line': b'writing dependency_links to track_drive.egg-info/dependency_links.txt\n'}
+[2.277941] (track_drive) StdoutLine: {'line': b'writing entry points to track_drive.egg-info/entry_points.txt\n'}
+[2.278146] (track_drive) StdoutLine: {'line': b'writing requirements to track_drive.egg-info/requires.txt\n'}
+[2.278344] (track_drive) StdoutLine: {'line': b'writing top-level names to track_drive.egg-info/top_level.txt\n'}
+[2.278708] (my_motor) StdoutLine: {'line': b'running egg_info\n'}
+[2.279259] (track_drive) StdoutLine: {'line': b"reading manifest file 'track_drive.egg-info/SOURCES.txt'\n"}
+[2.279867] (my_motor) StdoutLine: {'line': b'writing my_motor.egg-info/PKG-INFO\n'}
+[2.280238] (my_motor) StdoutLine: {'line': b'writing dependency_links to my_motor.egg-info/dependency_links.txt\n'}
+[2.280451] (my_motor) StdoutLine: {'line': b'writing entry points to my_motor.egg-info/entry_points.txt\n'}
+[2.280641] (my_motor) StdoutLine: {'line': b'writing requirements to my_motor.egg-info/requires.txt\n'}
+[2.280830] (track_drive) StdoutLine: {'line': b"writing manifest file 'track_drive.egg-info/SOURCES.txt'\n"}
+[2.281020] (my_motor) StdoutLine: {'line': b'writing top-level names to my_motor.egg-info/top_level.txt\n'}
+[2.281782] (track_drive) StdoutLine: {'line': b'running build_ext\n'}
+[2.282241] (track_drive) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages/track-drive.egg-link (link to .)\n'}
+[2.282631] (my_motor) StdoutLine: {'line': b"reading manifest file 'my_motor.egg-info/SOURCES.txt'\n"}
+[2.283578] (track_drive) StdoutLine: {'line': b'Installing track_drive script to /home/yoon/xycar_ws/install/track_drive/lib/track_drive\n'}
+[2.284405] (my_motor) StdoutLine: {'line': b"writing manifest file 'my_motor.egg-info/SOURCES.txt'\n"}
+[2.284611] (track_drive) StdoutLine: {'line': b'\n'}
+[2.284803] (track_drive) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/track_drive\n'}
+[2.284994] (track_drive) StdoutLine: {'line': b'running symlink_data\n'}
+[2.286656] (my_motor) StdoutLine: {'line': b'running build_ext\n'}
+[2.287045] (my_motor) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my-motor.egg-link (link to .)\n'}
+[2.288656] (my_motor) StdoutLine: {'line': b'Installing go script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor\n'}
+[2.289841] (my_motor) StdoutLine: {'line': b'Installing go_stop script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor\n'}
+[2.290089] (my_motor) StdoutLine: {'line': b'\n'}
+[2.290279] (my_motor) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/my_motor\n'}
+[2.290498] (my_motor) StdoutLine: {'line': b'running symlink_data\n'}
+[2.293981] (my_imu) JobEnded: {'identifier': 'my_imu', 'rc': 0}
+[2.306237] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[2.307756] (-) TimerEvent: {}
+[2.309558] (xycar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.316278] (xycar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.320725] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[2.340384] (track_drive) CommandEnded: {'returncode': 0}
+[2.352983] (track_drive) JobEnded: {'identifier': 'track_drive', 'rc': 0}
+[2.354977] (my_motor) CommandEnded: {'returncode': 0}
+[2.365496] (my_motor) JobEnded: {'identifier': 'my_motor', 'rc': 0}
+[2.407912] (-) TimerEvent: {}
+[2.508312] (-) TimerEvent: {}
+[2.608690] (-) TimerEvent: {}
+[2.709120] (-) TimerEvent: {}
+[2.809534] (-) TimerEvent: {}
+[2.849351] (xycar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.849576] (xycar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.849653] (xycar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.849748] (xycar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.873350] (xycar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.909732] (-) TimerEvent: {}
+[3.010128] (-) TimerEvent: {}
+[3.110552] (-) TimerEvent: {}
+[3.134135] (xycar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.176033] (xycar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.179364] (xycar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.185995] (xycar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.210702] (-) TimerEvent: {}
+[3.286523] (xycar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.303011] (xycar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/yoon/xycar_ws/build/xycar_msgs\n'}
+[3.310836] (-) TimerEvent: {}
+[3.312028] (xycar_msgs) CommandEnded: {'returncode': 0}
+[3.312735] (xycar_msgs) JobProgress: {'identifier': 'xycar_msgs', 'progress': 'build'}
+[3.314317] (xycar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yoon/xycar_ws/build/xycar_msgs', '--', '-j12', '-l12'], 'cwd': '/home/yoon/xycar_ws/build/xycar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoon'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yoon'), ('OLDPWD', '/home/yoon/xycar_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yoon'), ('NAME', 'DESKTOP-6G5L0D5'), ('WSL_INTEROP', '/run/WSL/533_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yoon/xycar_ws/build/xycar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.368709] (xycar_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.382464] (xycar_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.382869] (xycar_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.395099] (xycar_msgs) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_symlink_xycar_msgs\n'}
+[3.410991] (-) TimerEvent: {}
+[3.511387] (-) TimerEvent: {}
+[3.611751] (-) TimerEvent: {}
+[3.668441] (xycar_msgs) StdoutLine: {'line': b'[  7%] Built target xycar_msgs__rs\n'}
+[3.711908] (-) TimerEvent: {}
+[3.744112] (xycar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.745153] (xycar_msgs) StdoutLine: {'line': b'creating xycar_msgs.egg-info\n'}
+[3.746313] (xycar_msgs) StdoutLine: {'line': b'writing xycar_msgs.egg-info/PKG-INFO\n'}
+[3.746542] (xycar_msgs) StdoutLine: {'line': b'writing dependency_links to xycar_msgs.egg-info/dependency_links.txt\n'}
+[3.746769] (xycar_msgs) StdoutLine: {'line': b'writing top-level names to xycar_msgs.egg-info/top_level.txt\n'}
+[3.747058] (xycar_msgs) StdoutLine: {'line': b"writing manifest file 'xycar_msgs.egg-info/SOURCES.txt'\n"}
+[3.749150] (xycar_msgs) StdoutLine: {'line': b"reading manifest file 'xycar_msgs.egg-info/SOURCES.txt'\n"}
+[3.749863] (xycar_msgs) StdoutLine: {'line': b"writing manifest file 'xycar_msgs.egg-info/SOURCES.txt'\n"}
+[3.768110] (xycar_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_generator_c.dir/rosidl_generator_c/xycar_msgs/msg/detail/xycar_motor__functions.c.o\x1b[0m\n'}
+[3.768827] (xycar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_generator_c.dir/rosidl_generator_c/xycar_msgs/msg/detail/xycar_ultrasonic__functions.c.o\x1b[0m\n'}
+[3.796543] (xycar_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_xycar_msgs_egg\n'}
+[3.803914] (xycar_msgs) StdoutLine: {'line': b'[ 12%] Built target xycar_msgs__cpp\n'}
+[3.812045] (-) TimerEvent: {}
+[3.819677] (xycar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.819974] (xycar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.820847] (xycar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.887365] (xycar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libxycar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.912193] (-) TimerEvent: {}
+[4.012550] (-) TimerEvent: {}
+[4.050075] (xycar_msgs) StdoutLine: {'line': b'[ 22%] Built target xycar_msgs__rosidl_generator_c\n'}
+[4.065494] (xycar_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.065825] (xycar_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.069605] (xycar_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.112702] (-) TimerEvent: {}
+[4.180752] (xycar_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xycar_msgs/msg/detail/xycar_ultrasonic__type_support.cpp.o\x1b[0m\n'}
+[4.181019] (xycar_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xycar_msgs/msg/detail/xycar_motor__type_support.cpp.o\x1b[0m\n'}
+[4.191478] (xycar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xycar_msgs/msg/xycar_ultrasonic__type_support.cpp.o\x1b[0m\n'}
+[4.191806] (xycar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xycar_msgs/msg/xycar_motor__type_support.cpp.o\x1b[0m\n'}
+[4.212526] (xycar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xycar_msgs/msg/detail/dds_fastrtps/xycar_motor__type_support.cpp.o\x1b[0m\n'}
+[4.212777] (-) TimerEvent: {}
+[4.213005] (xycar_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xycar_msgs/msg/detail/dds_fastrtps/xycar_ultrasonic__type_support.cpp.o\x1b[0m\n'}
+[4.312951] (-) TimerEvent: {}
+[4.413416] (-) TimerEvent: {}
+[4.494025] (xycar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xycar_msgs/msg/xycar_ultrasonic__type_support.cpp.o\x1b[0m\n'}
+[4.497906] (xycar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xycar_msgs/msg/xycar_motor__type_support.cpp.o\x1b[0m\n'}
+[4.517802] (-) TimerEvent: {}
+[4.521744] (xycar_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xycar_msgs/msg/detail/xycar_motor__type_support.c.o\x1b[0m\n'}
+[4.522091] (xycar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xycar_msgs/msg/detail/xycar_ultrasonic__type_support.c.o\x1b[0m\n'}
+[4.574538] (xycar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libxycar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.591853] (xycar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xycar_msgs/msg/detail/xycar_ultrasonic__type_support_c.cpp.o\x1b[0m\n'}
+[4.592223] (xycar_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/xycar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xycar_msgs/msg/detail/xycar_motor__type_support_c.cpp.o\x1b[0m\n'}
+[4.618083] (-) TimerEvent: {}
+[4.625951] (xycar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libxycar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.699490] (xycar_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libxycar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.718257] (-) TimerEvent: {}
+[4.818386] (xycar_msgs) StdoutLine: {'line': b'[ 67%] Built target xycar_msgs__rosidl_typesupport_c\n'}
+[4.818702] (-) TimerEvent: {}
+[4.822752] (xycar_msgs) StdoutLine: {'line': b'[ 67%] Built target xycar_msgs__rosidl_typesupport_introspection_c\n'}
+[4.891652] (xycar_msgs) StdoutLine: {'line': b'[ 67%] Built target xycar_msgs__rosidl_typesupport_cpp\n'}
+[4.918882] (-) TimerEvent: {}
+[4.966081] (xycar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libxycar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.987723] (xycar_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libxycar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.019043] (-) TimerEvent: {}
+[5.119513] (-) TimerEvent: {}
+[5.150382] (xycar_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libxycar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.207361] (xycar_msgs) StdoutLine: {'line': b'[ 75%] Built target xycar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.219685] (-) TimerEvent: {}
+[5.221231] (xycar_msgs) StdoutLine: {'line': b'[ 75%] Built target xycar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.319874] (-) TimerEvent: {}
+[5.363026] (xycar_msgs) StdoutLine: {'line': b'[ 75%] Built target xycar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.390291] (xycar_msgs) StdoutLine: {'line': b'[ 75%] Built target xycar_msgs\n'}
+[5.418434] (xycar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.420021] (-) TimerEvent: {}
+[5.520347] (-) TimerEvent: {}
+[5.620674] (-) TimerEvent: {}
+[5.721016] (-) TimerEvent: {}
+[5.821424] (-) TimerEvent: {}
+[5.835907] (xycar_msgs) StdoutLine: {'line': b'[ 77%] Built target xycar_msgs__py\n'}
+[5.864049] (xycar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_generator_py.dir/rosidl_generator_py/xycar_msgs/msg/_xycar_motor_s.c.o\x1b[0m\n'}
+[5.864373] (xycar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_generator_py.dir/rosidl_generator_py/xycar_msgs/msg/_xycar_ultrasonic_s.c.o\x1b[0m\n'}
+[5.921582] (-) TimerEvent: {}
+[6.022012] (-) TimerEvent: {}
+[6.049171] (xycar_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xycar_msgs/libxycar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.122159] (-) TimerEvent: {}
+[6.205084] (xycar_msgs) StdoutLine: {'line': b'[ 85%] Built target xycar_msgs__rosidl_generator_py\n'}
+[6.222303] (-) TimerEvent: {}
+[6.233121] (xycar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.233487] (xycar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.233726] (xycar_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xycar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.322488] (-) TimerEvent: {}
+[6.398141] (xycar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xycar_msgs/xycar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.398469] (xycar_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xycar_msgs/xycar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.399428] (xycar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xycar_msgs/xycar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.422624] (-) TimerEvent: {}
+[6.522986] (-) TimerEvent: {}
+[6.523340] (xycar_msgs) StdoutLine: {'line': b'[100%] Built target xycar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.523560] (xycar_msgs) StdoutLine: {'line': b'[100%] Built target xycar_msgs__rosidl_typesupport_c__pyext\n'}
+[6.525373] (xycar_msgs) StdoutLine: {'line': b'[100%] Built target xycar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.542776] (xycar_msgs) CommandEnded: {'returncode': 0}
+[6.543574] (xycar_msgs) JobProgress: {'identifier': 'xycar_msgs', 'progress': 'install'}
+[6.556250] (xycar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yoon/xycar_ws/build/xycar_msgs'], 'cwd': '/home/yoon/xycar_ws/build/xycar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoon'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yoon'), ('OLDPWD', '/home/yoon/xycar_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yoon'), ('NAME', 'DESKTOP-6G5L0D5'), ('WSL_INTEROP', '/run/WSL/533_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yoon/xycar_ws/build/xycar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.565939] (xycar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.566568] (xycar_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.568608] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/ament_index/resource_index/rosidl_interfaces/xycar_msgs\n'}
+[6.584474] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__functions.h\n'}
+[6.596880] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__struct.h\n'}
+[6.609024] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__type_support.h\n'}
+[6.621615] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__functions.h\n'}
+[6.623064] (-) TimerEvent: {}
+[6.633824] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__struct.h\n'}
+[6.646091] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__type_support.h\n'}
+[6.658896] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.671149] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/xycar_motor.h\n'}
+[6.683633] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/xycar_ultrasonic.h\n'}
+[6.697364] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/library_path.sh\n'}
+[6.710148] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/library_path.dsv\n'}
+[6.722947] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__rosidl_typesupport_fastrtps_c.h\n'}
+[6.723123] (-) TimerEvent: {}
+[6.735107] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__rosidl_typesupport_fastrtps_c.h\n'}
+[6.748131] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.761279] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__rosidl_typesupport_introspection_c.h\n'}
+[6.774572] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__rosidl_typesupport_introspection_c.h\n'}
+[6.786969] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.799769] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__builder.hpp\n'}
+[6.812091] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__struct.hpp\n'}
+[6.823257] (-) TimerEvent: {}
+[6.824321] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__traits.hpp\n'}
+[6.836277] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__type_support.hpp\n'}
+[6.849139] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__builder.hpp\n'}
+[6.861356] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__struct.hpp\n'}
+[6.873655] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__traits.hpp\n'}
+[6.885721] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__type_support.hpp\n'}
+[6.898545] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.911258] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/xycar_motor.hpp\n'}
+[6.923405] (-) TimerEvent: {}
+[6.923775] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/xycar_ultrasonic.hpp\n'}
+[6.936419] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.949895] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.962517] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.975415] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.988113] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/include/xycar_msgs/xycar_msgs/msg/detail/xycar_ultrasonic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.000638] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/pythonpath.sh\n'}
+[7.013195] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/pythonpath.dsv\n'}
+[7.023569] (-) TimerEvent: {}
+[7.028917] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.041824] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.054919] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.067216] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.081197] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/__init__.py\n'}
+[7.093285] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.105615] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.118010] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/_xycar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.123675] (-) TimerEvent: {}
+[7.130155] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/libxycar_msgs__rosidl_generator_py.so\n'}
+[7.143336] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/__init__.py\n'}
+[7.155561] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_motor.py\n'}
+[7.167749] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_motor_s.c\n'}
+[7.180401] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_ultrasonic.py\n'}
+[7.192897] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_ultrasonic_s.c\n'}
+[7.205179] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.217581] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.223825] (-) TimerEvent: {}
+[7.230104] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.243204] (xycar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.243469] (xycar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.243834] (xycar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/xycar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.244730] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/ament_index/resource_index/rust_packages/xycar_msgs\n'}
+[7.258358] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/rust/Cargo.toml\n'}
+[7.270906] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/rust/build.rs\n'}
+[7.284060] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/rust/src/lib.rs\n'}
+[7.296789] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/rust/src/msg.rs\n'}
+[7.310116] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/rust/src/msg/rmw.rs\n'}
+[7.323788] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/msg/XycarMotor.idl\n'}
+[7.323970] (-) TimerEvent: {}
+[7.336674] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/msg/XycarUltrasonic.idl\n'}
+[7.349456] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/msg/XycarMotor.msg\n'}
+[7.361019] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/msg/XycarUltrasonic.msg\n'}
+[7.373761] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/ament_index/resource_index/package_run_dependencies/xycar_msgs\n'}
+[7.386804] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/ament_index/resource_index/parent_prefix_path/xycar_msgs\n'}
+[7.399293] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/ament_prefix_path.sh\n'}
+[7.411727] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/ament_prefix_path.dsv\n'}
+[7.424122] (-) TimerEvent: {}
+[7.424453] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/path.sh\n'}
+[7.438253] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/environment/path.dsv\n'}
+[7.450713] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/local_setup.bash\n'}
+[7.463149] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/local_setup.sh\n'}
+[7.475908] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/local_setup.zsh\n'}
+[7.488736] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/local_setup.dsv\n'}
+[7.501560] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.dsv\n'}
+[7.514989] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/ament_index/resource_index/packages/xycar_msgs\n'}
+[7.524253] (-) TimerEvent: {}
+[7.527971] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.540629] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.552998] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.566148] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.578904] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.591935] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.604141] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.620819] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgsConfig.cmake\n'}
+[7.624462] (-) TimerEvent: {}
+[7.633628] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgsConfig-version.cmake\n'}
+[7.646110] (xycar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.xml\n'}
+[7.658324] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_generator_c.so\n'}
+[7.658829] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_generator_c.so" to ""\n'}
+[7.659009] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.659505] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.659646] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.660145] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.660283] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_c.so\n'}
+[7.660773] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.660933] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.661479] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.661648] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.662410] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.662514] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_cpp.so\n'}
+[7.662931] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.704226] (xycar_msgs) StdoutLine: {'line': b"Listing '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs'...\n"}
+[7.704515] (xycar_msgs) StdoutLine: {'line': b"Compiling '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/__init__.py'...\n"}
+[7.704636] (xycar_msgs) StdoutLine: {'line': b"Listing '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg'...\n"}
+[7.704749] (xycar_msgs) StdoutLine: {'line': b"Compiling '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/__init__.py'...\n"}
+[7.704857] (xycar_msgs) StdoutLine: {'line': b"Compiling '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_motor.py'...\n"}
+[7.704981] (xycar_msgs) StdoutLine: {'line': b"Compiling '/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages/xycar_msgs/msg/_xycar_ultrasonic.py'...\n"}
+[7.709579] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_generator_py.so\n'}
+[7.710098] (xycar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yoon/xycar_ws/install/xycar_msgs/lib/libxycar_msgs__rosidl_generator_py.so" to ""\n'}
+[7.710281] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_generator_cExport.cmake\n'}
+[7.710575] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.710859] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.711144] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.711441] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.711729] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.712024] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.712460] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.712630] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.712923] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.713245] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.713524] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.713858] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.714160] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.714532] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/xycar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.714816] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.715098] (xycar_msgs) StdoutLine: {'line': b'-- Installing: /home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/cmake/export_xycar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.718446] (xycar_msgs) CommandEnded: {'returncode': 0}
+[7.724748] (-) TimerEvent: {}
+[7.738666] (xycar_msgs) JobEnded: {'identifier': 'xycar_msgs', 'rc': 0}
+[7.739770] (kookmin9_viewer) JobStarted: {'identifier': 'kookmin9_viewer'}
+[7.747519] (my_cam) JobStarted: {'identifier': 'my_cam'}
+[7.756943] (my_lidar) JobStarted: {'identifier': 'my_lidar'}
+[7.824921] (-) TimerEvent: {}
+[7.925265] (-) TimerEvent: {}
+[8.025643] (-) TimerEvent: {}
+[8.126209] (-) TimerEvent: {}
+[8.226956] (-) TimerEvent: {}
+[8.327313] (-) TimerEvent: {}
+[8.427662] (-) TimerEvent: {}
+[8.528019] (-) TimerEvent: {}
+[8.628356] (-) TimerEvent: {}
+[8.728698] (-) TimerEvent: {}
+[8.829143] (-) TimerEvent: {}
+[8.929511] (-) TimerEvent: {}
+[9.029877] (-) TimerEvent: {}
+[9.123742] (my_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/my_cam/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/my_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yoon/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/my_cam', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/my_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages:/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs'}, 'shell': False}
+[9.129983] (-) TimerEvent: {}
+[9.159719] (kookmin9_viewer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/kookmin9_viewer/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/kookmin9_viewer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yoon/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/kookmin9_viewer', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/kookmin9_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages:/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs'}, 'shell': False}
+[9.230130] (-) TimerEvent: {}
+[9.249265] (my_lidar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yoon/xycar_ws/build/my_lidar/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yoon/xycar_ws/build/my_lidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoon', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yoon/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yoon', 'OLDPWD': '/home/yoon/xycar_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yoon', 'NAME': 'DESKTOP-6G5L0D5', 'WSL_INTEROP': '/run/WSL/533_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/shiny/.local/bin:/mnt/c/Users/shiny/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiny/AppData/Local/Python/bin:/mnt/c/Users/shiny/AppData/Roaming/npm:/mnt/c/Users/shiny/flutter/bin:/mnt/c/Users/shiny/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yoon/xycar_ws/build/my_lidar', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoon/xycar_ws/build/my_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages:/home/yoon/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/yoon/xycar_ws/install/xycar_msgs'}, 'shell': False}
+[9.330279] (-) TimerEvent: {}
+[9.430641] (-) TimerEvent: {}
+[9.448001] (my_cam) StdoutLine: {'line': b'running develop\n'}
+[9.489470] (kookmin9_viewer) StdoutLine: {'line': b'running develop\n'}
+[9.530786] (-) TimerEvent: {}
+[9.540831] (my_lidar) StdoutLine: {'line': b'running develop\n'}
+[9.627825] (my_cam) StdoutLine: {'line': b'running egg_info\n'}
+[9.628015] (my_cam) StdoutLine: {'line': b'creating my_cam.egg-info\n'}
+[9.628933] (my_cam) StdoutLine: {'line': b'writing my_cam.egg-info/PKG-INFO\n'}
+[9.629251] (my_cam) StdoutLine: {'line': b'writing dependency_links to my_cam.egg-info/dependency_links.txt\n'}
+[9.629426] (my_cam) StdoutLine: {'line': b'writing entry points to my_cam.egg-info/entry_points.txt\n'}
+[9.629694] (my_cam) StdoutLine: {'line': b'writing requirements to my_cam.egg-info/requires.txt\n'}
+[9.629790] (my_cam) StdoutLine: {'line': b'writing top-level names to my_cam.egg-info/top_level.txt\n'}
+[9.630039] (my_cam) StdoutLine: {'line': b"writing manifest file 'my_cam.egg-info/SOURCES.txt'\n"}
+[9.630864] (-) TimerEvent: {}
+[9.632118] (my_cam) StdoutLine: {'line': b"reading manifest file 'my_cam.egg-info/SOURCES.txt'\n"}
+[9.632708] (my_cam) StdoutLine: {'line': b"writing manifest file 'my_cam.egg-info/SOURCES.txt'\n"}
+[9.634303] (my_cam) StdoutLine: {'line': b'running build_ext\n'}
+[9.634527] (my_cam) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages/my-cam.egg-link (link to .)\n'}
+[9.635430] (my_cam) StdoutLine: {'line': b'Installing cam_viewer script to /home/yoon/xycar_ws/install/my_cam/lib/my_cam\n'}
+[9.636329] (my_cam) StdoutLine: {'line': b'\n'}
+[9.636571] (my_cam) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/my_cam\n'}
+[9.636674] (my_cam) StdoutLine: {'line': b'running symlink_data\n'}
+[9.636740] (my_cam) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_cam/share/ament_index\n'}
+[9.637271] (my_cam) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index\n'}
+[9.637907] (my_cam) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index/packages\n'}
+[9.638587] (my_cam) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/my_cam/resource/my_cam -> /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index/packages\n'}
+[9.639279] (my_cam) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/my_cam/package.xml -> /home/yoon/xycar_ws/install/my_cam/share/my_cam\n'}
+[9.670103] (kookmin9_viewer) StdoutLine: {'line': b'running egg_info\n'}
+[9.670299] (kookmin9_viewer) StdoutLine: {'line': b'creating kookmin9_viewer.egg-info\n'}
+[9.671013] (kookmin9_viewer) StdoutLine: {'line': b'writing kookmin9_viewer.egg-info/PKG-INFO\n'}
+[9.671305] (kookmin9_viewer) StdoutLine: {'line': b'writing dependency_links to kookmin9_viewer.egg-info/dependency_links.txt\n'}
+[9.671487] (kookmin9_viewer) StdoutLine: {'line': b'writing entry points to kookmin9_viewer.egg-info/entry_points.txt\n'}
+[9.671639] (kookmin9_viewer) StdoutLine: {'line': b'writing requirements to kookmin9_viewer.egg-info/requires.txt\n'}
+[9.671809] (kookmin9_viewer) StdoutLine: {'line': b'writing top-level names to kookmin9_viewer.egg-info/top_level.txt\n'}
+[9.672140] (kookmin9_viewer) StdoutLine: {'line': b"writing manifest file 'kookmin9_viewer.egg-info/SOURCES.txt'\n"}
+[9.673943] (kookmin9_viewer) StdoutLine: {'line': b"reading manifest file 'kookmin9_viewer.egg-info/SOURCES.txt'\n"}
+[9.675860] (kookmin9_viewer) StdoutLine: {'line': b"writing manifest file 'kookmin9_viewer.egg-info/SOURCES.txt'\n"}
+[9.676176] (my_cam) CommandEnded: {'returncode': 0}
+[9.677025] (kookmin9_viewer) StdoutLine: {'line': b'running build_ext\n'}
+[9.677819] (kookmin9_viewer) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9-viewer.egg-link (link to .)\n'}
+[9.677917] (kookmin9_viewer) StdoutLine: {'line': b'Installing test_viewer script to /home/yoon/xycar_ws/install/kookmin9_viewer/lib/kookmin9_viewer\n'}
+[9.678250] (kookmin9_viewer) StdoutLine: {'line': b'\n'}
+[9.678388] (kookmin9_viewer) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/kookmin9_viewer\n'}
+[9.678522] (kookmin9_viewer) StdoutLine: {'line': b'running symlink_data\n'}
+[9.678830] (kookmin9_viewer) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index\n'}
+[9.679186] (kookmin9_viewer) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index\n'}
+[9.679820] (kookmin9_viewer) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index/packages\n'}
+[9.680783] (kookmin9_viewer) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/kookmin9_viewer/resource/kookmin9_viewer -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index/packages\n'}
+[9.681412] (kookmin9_viewer) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/kookmin9_viewer/package.xml -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer\n'}
+[9.689993] (my_cam) JobEnded: {'identifier': 'my_cam', 'rc': 0}
+[9.714828] (kookmin9_viewer) CommandEnded: {'returncode': 0}
+[9.718961] (my_lidar) StdoutLine: {'line': b'running egg_info\n'}
+[9.719202] (my_lidar) StdoutLine: {'line': b'creating my_lidar.egg-info\n'}
+[9.720652] (my_lidar) StdoutLine: {'line': b'writing my_lidar.egg-info/PKG-INFO\n'}
+[9.721171] (my_lidar) StdoutLine: {'line': b'writing dependency_links to my_lidar.egg-info/dependency_links.txt\n'}
+[9.721373] (my_lidar) StdoutLine: {'line': b'writing entry points to my_lidar.egg-info/entry_points.txt\n'}
+[9.721603] (my_lidar) StdoutLine: {'line': b'writing requirements to my_lidar.egg-info/requires.txt\n'}
+[9.721844] (my_lidar) StdoutLine: {'line': b'writing top-level names to my_lidar.egg-info/top_level.txt\n'}
+[9.722039] (my_lidar) StdoutLine: {'line': b"writing manifest file 'my_lidar.egg-info/SOURCES.txt'\n"}
+[9.722606] (my_lidar) StdoutLine: {'line': b"reading manifest file 'my_lidar.egg-info/SOURCES.txt'\n"}
+[9.723244] (my_lidar) StdoutLine: {'line': b"writing manifest file 'my_lidar.egg-info/SOURCES.txt'\n"}
+[9.725253] (my_lidar) StdoutLine: {'line': b'running build_ext\n'}
+[9.725487] (my_lidar) StdoutLine: {'line': b'Creating /home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages/my-lidar.egg-link (link to .)\n'}
+[9.725982] (my_lidar) StdoutLine: {'line': b'Installing lidar_scan script to /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar\n'}
+[9.726884] (my_lidar) StdoutLine: {'line': b'Installing lidar_viewer script to /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar\n'}
+[9.727416] (my_lidar) StdoutLine: {'line': b'\n'}
+[9.727613] (my_lidar) StdoutLine: {'line': b'Installed /home/yoon/xycar_ws/build/my_lidar\n'}
+[9.727807] (my_lidar) StdoutLine: {'line': b'running symlink_data\n'}
+[9.728032] (my_lidar) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index\n'}
+[9.728630] (my_lidar) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index\n'}
+[9.728845] (my_lidar) StdoutLine: {'line': b'creating /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index/packages\n'}
+[9.729559] (my_lidar) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/my_lidar/resource/my_lidar -> /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index/packages\n'}
+[9.729829] (my_lidar) StdoutLine: {'line': b'symbolically linking /home/yoon/xycar_ws/build/my_lidar/package.xml -> /home/yoon/xycar_ws/install/my_lidar/share/my_lidar\n'}
+[9.731622] (-) TimerEvent: {}
+[9.735729] (kookmin9_viewer) JobEnded: {'identifier': 'kookmin9_viewer', 'rc': 0}
+[9.762688] (my_lidar) CommandEnded: {'returncode': 0}
+[9.774298] (my_lidar) JobEnded: {'identifier': 'my_lidar', 'rc': 0}
+[9.776027] (-) EventReactorShutdown: {}

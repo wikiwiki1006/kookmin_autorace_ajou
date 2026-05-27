@@ -1,0 +1,33 @@
+running develop
+Removing /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9-viewer.egg-link (link to .)
+running egg_info
+writing ../../build/kookmin9_viewer/kookmin9_viewer.egg-info/PKG-INFO
+writing dependency_links to ../../build/kookmin9_viewer/kookmin9_viewer.egg-info/dependency_links.txt
+writing entry points to ../../build/kookmin9_viewer/kookmin9_viewer.egg-info/entry_points.txt
+writing requirements to ../../build/kookmin9_viewer/kookmin9_viewer.egg-info/requires.txt
+writing top-level names to ../../build/kookmin9_viewer/kookmin9_viewer.egg-info/top_level.txt
+reading manifest file '../../build/kookmin9_viewer/kookmin9_viewer.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/kookmin9_viewer/kookmin9_viewer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yoon/xycar_ws/build/kookmin9_viewer/build
+creating /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib
+creating /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib/kookmin9_viewer
+copying kookmin9_viewer/test_viewer.py -> /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib/kookmin9_viewer
+copying kookmin9_viewer/__init__.py -> /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib/kookmin9_viewer
+running install
+running install_lib
+creating /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer
+copying /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib/kookmin9_viewer/test_viewer.py -> /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer
+copying /home/yoon/xycar_ws/build/kookmin9_viewer/build/lib/kookmin9_viewer/__init__.py -> /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer
+byte-compiling /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer/test_viewer.py to test_viewer.cpython-310.pyc
+byte-compiling /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/kookmin9_viewer -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index/packages
+copying package.xml -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer
+running install_egg_info
+Copying ../../build/kookmin9_viewer/kookmin9_viewer.egg-info to /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9_viewer-0.1.0-py3.10.egg-info
+running install_scripts
+Installing test_viewer script to /home/yoon/xycar_ws/install/kookmin9_viewer/lib/kookmin9_viewer
+writing list of installed files to '/home/yoon/xycar_ws/build/kookmin9_viewer/install.log'

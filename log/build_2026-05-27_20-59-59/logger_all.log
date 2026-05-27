@@ -1,0 +1,557 @@
+[0.516s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.516s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71cfc1a21480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71cfc1b428f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71cfc1b428f0>>)
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.016s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yoon/xycar_ws'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[1.056s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/kookmin9_viewer) by extension 'ros'
+[1.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kookmin9_viewer' with type 'ros.ament_python' and name 'kookmin9_viewer'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extensions ['ignore', 'ignore_ament_install']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extension 'ignore'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extension 'ignore_ament_install'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extensions ['colcon_pkg']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extension 'colcon_pkg'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extension 'colcon_meta'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extensions ['ros']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cam) by extension 'ros'
+[1.065s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cam' with type 'ros.ament_python' and name 'my_cam'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extension 'ignore_ament_install'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extensions ['colcon_pkg']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extension 'colcon_pkg'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extensions ['colcon_meta']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extension 'colcon_meta'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extensions ['ros']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_imu) by extension 'ros'
+[1.070s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_imu' with type 'ros.ament_python' and name 'my_imu'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extension 'ignore'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extension 'ignore_ament_install'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extensions ['colcon_pkg']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extension 'colcon_meta'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_lidar) by extension 'ros'
+[1.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_lidar' with type 'ros.ament_python' and name 'my_lidar'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extensions ['ignore', 'ignore_ament_install']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extension 'ignore'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extension 'ignore_ament_install'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extensions ['colcon_pkg']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extension 'colcon_pkg'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extensions ['ros']
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_motor) by extension 'ros'
+[1.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_motor' with type 'ros.ament_python' and name 'my_motor'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extensions ['colcon_pkg']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extension 'colcon_pkg'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extensions ['colcon_meta']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extension 'colcon_meta'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extensions ['ros']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_drive) by extension 'ros'
+[1.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/track_drive' with type 'ros.ament_python' and name 'track_drive'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extension 'ignore'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extension 'ignore_ament_install'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extensions ['colcon_pkg']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extension 'colcon_pkg'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extensions ['colcon_meta']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extension 'colcon_meta'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extensions ['ros']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_msgs) by extension 'ros'
+[1.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_msgs' with type 'ros.ament_cmake' and name 'xycar_msgs'
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/yoon/xycar_ws/install
+[1.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_clean_first' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'cmake_force_configure' from command line to 'False'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'ament_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'my_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.260s] DEBUG:colcon.colcon_core.verb:Building package 'my_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/my_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/my_imu', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/my_imu', 'symlink_install': True, 'test_result_base': None}
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_args' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_target' from command line to 'None'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_clean_first' from command line to 'False'
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'cmake_force_configure' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'ament_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'my_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.262s] DEBUG:colcon.colcon_core.verb:Building package 'my_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/my_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/my_motor', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/my_motor', 'symlink_install': True, 'test_result_base': None}
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.264s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': True, 'test_result_base': None}
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_target' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_clean_first' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'cmake_force_configure' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'ament_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'track_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.265s] DEBUG:colcon.colcon_core.verb:Building package 'track_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/track_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/track_drive', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/track_drive', 'symlink_install': True, 'test_result_base': None}
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/xycar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/xycar_msgs', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/xycar_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'kookmin9_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.267s] DEBUG:colcon.colcon_core.verb:Building package 'kookmin9_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/kookmin9_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/kookmin9_viewer', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/kookmin9_viewer', 'symlink_install': True, 'test_result_base': None}
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'my_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'my_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/my_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/my_cam', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/my_cam', 'symlink_install': True, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_target' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'my_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.270s] DEBUG:colcon.colcon_core.verb:Building package 'my_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoon/xycar_ws/build/my_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoon/xycar_ws/install/my_lidar', 'merge_install': False, 'path': '/home/yoon/xycar_ws/src/my_lidar', 'symlink_install': True, 'test_result_base': None}
+[1.270s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yoon/xycar_ws/src/xycar_msgs' with build type 'ament_cmake'
+[1.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yoon/xycar_ws/src/xycar_msgs'
+[1.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/my_imu' with build type 'ament_python'
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_imu', 'ament_prefix_path')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/ament_prefix_path.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/ament_prefix_path.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/ament_prefix_path.sh'
+[1.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.312s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/my_motor' with build type 'ament_python'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_motor', 'ament_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/ament_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/ament_prefix_path.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/ament_prefix_path.sh'
+[1.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[1.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/track_drive' with build type 'ament_python'
+[1.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_drive', 'ament_prefix_path')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/ament_prefix_path.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/ament_prefix_path.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/ament_prefix_path.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/xycar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake /home/yoon/xycar_ws/src/xycar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yoon/xycar_ws/install/xycar_msgs
+[1.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/my_imu'
+[1.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.325s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/my_motor'
+[2.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.798s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/ROS-TCP-Endpoint-main-ros2'
+[2.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.272s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/track_drive'
+[3.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.477s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_imu/share/ament_index/resource_index/packages/my_imu
+[4.477s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_imu/share/my_imu/package.xml
+[4.478s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_imu/lib/my_imu/roll_pitch_yaw
+[4.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/my_imu': PYTHONPATH=/home/yoon/xycar_ws/build/my_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_imu/build --no-deps symlink_data --force
+[4.494s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages/ros_tcp_endpoint
+[4.494s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.xml
+[4.494s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch/endpoint.py
+[4.495s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint/default_server_endpoint
+[4.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/yoon/xycar_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[4.505s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index/packages/my_motor
+[4.505s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_motor/share/my_motor/package.xml
+[4.506s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_motor/lib/my_motor/go
+[4.506s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_motor/lib/my_motor/go_stop
+[4.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/my_motor': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data --force
+[4.515s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/track_drive/share/ament_index/resource_index/packages/track_drive
+[4.515s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/track_drive/share/track_drive/package.xml
+[4.515s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/track_drive/share/track_drive/launch
+[4.516s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/track_drive/lib/track_drive/lane_detection
+[4.516s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/track_drive/lib/track_drive/track_drive
+[4.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/track_drive': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build --no-deps symlink_data --force
+[5.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_imu', 'pythonpath_develop')
+[5.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_imu/share/my_imu/hook/pythonpath_develop.ps1'
+[5.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/my_imu' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_imu/build --no-deps symlink_data --force
+[5.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/my_imu/share/my_imu/hook/pythonpath_develop.dsv'
+[5.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_imu/share/my_imu/hook/pythonpath_develop.sh'
+[5.538s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu' for CMake module files
+[5.540s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu' for CMake config files
+[5.544s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu/lib'
+[5.545s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu/bin'
+[5.546s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu/lib/pkgconfig/my_imu.pc'
+[5.546s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu/lib/python3.10/site-packages'
+[5.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_imu', 'pythonpath')
+[5.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/pythonpath.ps1'
+[5.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/pythonpath.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_imu/share/my_imu/hook/pythonpath.sh'
+[5.551s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_imu/bin'
+[5.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_imu)
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_imu/share/my_imu/package.ps1'
+[5.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/my_imu/share/my_imu/package.dsv'
+[5.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_imu/share/my_imu/package.sh'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_imu/share/my_imu/package.bash'
+[5.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_imu/share/my_imu/package.zsh'
+[5.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/my_imu/share/colcon-core/packages/my_imu)
+[5.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_drive', 'pythonpath_develop')
+[5.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/track_drive/share/track_drive/hook/pythonpath_develop.ps1'
+[5.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/track_drive' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/track_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/track_drive/build --no-deps symlink_data --force
+[5.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/track_drive/share/track_drive/hook/pythonpath_develop.dsv'
+[5.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/track_drive/share/track_drive/hook/pythonpath_develop.sh'
+[5.573s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive' for CMake module files
+[5.574s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive' for CMake config files
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive/lib'
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive/bin'
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive/lib/pkgconfig/track_drive.pc'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive/lib/python3.10/site-packages'
+[5.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_drive', 'pythonpath')
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/pythonpath.ps1'
+[5.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/pythonpath.dsv'
+[5.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/track_drive/share/track_drive/hook/pythonpath.sh'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/track_drive/bin'
+[5.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track_drive)
+[5.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/track_drive/share/track_drive/package.ps1'
+[5.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/track_drive/share/track_drive/package.dsv'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/track_drive/share/track_drive/package.sh'
+[5.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/track_drive/share/track_drive/package.bash'
+[5.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/track_drive/share/track_drive/package.zsh'
+[5.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/track_drive/share/colcon-core/packages/track_drive)
+[5.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[5.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[5.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/xycar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake /home/yoon/xycar_ws/src/xycar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yoon/xycar_ws/install/xycar_msgs
+[5.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[5.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/xycar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake --build /home/yoon/xycar_ws/build/xycar_msgs -- -j12 -l12
+[5.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint' for CMake module files
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint' for CMake config files
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib'
+[5.609s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint/bin'
+[5.609s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[5.610s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[5.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[5.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[5.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/ros_tcp_endpoint/bin'
+[5.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[5.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[5.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[5.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_motor', 'pythonpath_develop')
+[5.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_motor/share/my_motor/hook/pythonpath_develop.ps1'
+[5.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/my_motor' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build --no-deps symlink_data --force
+[5.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/my_motor/share/my_motor/hook/pythonpath_develop.dsv'
+[5.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_motor/share/my_motor/hook/pythonpath_develop.sh'
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor' for CMake module files
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor' for CMake config files
+[5.636s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor/lib'
+[5.636s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor/bin'
+[5.636s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor/lib/pkgconfig/my_motor.pc'
+[5.637s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages'
+[5.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_motor', 'pythonpath')
+[5.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/pythonpath.ps1'
+[5.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/pythonpath.dsv'
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_motor/share/my_motor/hook/pythonpath.sh'
+[5.640s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_motor/bin'
+[5.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_motor)
+[5.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_motor/share/my_motor/package.ps1'
+[5.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/my_motor/share/my_motor/package.dsv'
+[5.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_motor/share/my_motor/package.sh'
+[5.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_motor/share/my_motor/package.bash'
+[5.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_motor/share/my_motor/package.zsh'
+[5.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/my_motor/share/colcon-core/packages/my_motor)
+[6.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/xycar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake --build /home/yoon/xycar_ws/build/xycar_msgs -- -j12 -l12
+[6.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/xycar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake --install /home/yoon/xycar_ws/build/xycar_msgs
+[6.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_msgs)
+[6.628s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs' for CMake module files
+[6.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/xycar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoon/xycar_ws/install/my_lidar:/home/yoon/xycar_ws/install/my_cam:/home/yoon/xycar_ws/install/kookmin9_viewer:/home/yoon/xycar_ws/install/track_drive:/home/yoon/xycar_ws/install/ros_tcp_endpoint:/home/yoon/xycar_ws/install/my_motor:/home/yoon/xycar_ws/install/my_imu:/opt/ros/humble /usr/bin/cmake --install /home/yoon/xycar_ws/build/xycar_msgs
+[6.632s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs' for CMake config files
+[6.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'cmake_prefix_path')
+[6.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.ps1'
+[6.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.dsv'
+[6.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.sh'
+[6.639s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib'
+[6.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'ld_library_path_lib')
+[6.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.ps1'
+[6.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.dsv'
+[6.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.sh'
+[6.644s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/bin'
+[6.644s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib/pkgconfig/xycar_msgs.pc'
+[6.645s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib/python3.10/site-packages'
+[6.646s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/bin'
+[6.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.ps1'
+[6.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.dsv'
+[6.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.sh'
+[6.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.bash'
+[6.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.zsh'
+[6.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/xycar_msgs/share/colcon-core/packages/xycar_msgs)
+[6.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_msgs)
+[6.656s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs' for CMake module files
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs' for CMake config files
+[6.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'cmake_prefix_path')
+[6.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.ps1'
+[6.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.dsv'
+[6.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.sh'
+[6.662s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib'
+[6.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'ld_library_path_lib')
+[6.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.ps1'
+[6.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.dsv'
+[6.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.sh'
+[6.665s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/bin'
+[6.666s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib/pkgconfig/xycar_msgs.pc'
+[6.666s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/lib/python3.10/site-packages'
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/xycar_msgs/bin'
+[6.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.ps1'
+[6.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.dsv'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.sh'
+[6.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.bash'
+[6.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.zsh'
+[6.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/xycar_msgs/share/colcon-core/packages/xycar_msgs)
+[6.674s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/kookmin9_viewer' with build type 'ament_python'
+[6.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('kookmin9_viewer', 'ament_prefix_path')
+[6.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/ament_prefix_path.ps1'
+[6.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/ament_prefix_path.dsv'
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/ament_prefix_path.sh'
+[6.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.683s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/my_cam' with build type 'ament_python'
+[6.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cam', 'ament_prefix_path')
+[6.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/ament_prefix_path.ps1'
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/ament_prefix_path.dsv'
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/ament_prefix_path.sh'
+[6.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoon/xycar_ws/src/my_lidar' with build type 'ament_python'
+[6.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_lidar', 'ament_prefix_path')
+[6.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/ament_prefix_path.ps1'
+[6.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/ament_prefix_path.dsv'
+[6.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/ament_prefix_path.sh'
+[6.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.291s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/my_cam'
+[7.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.813s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/kookmin9_viewer'
+[7.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.305s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoon/xycar_ws/src/my_lidar'
+[8.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.016s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index/packages/kookmin9_viewer
+[9.016s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.xml
+[9.017s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/kookmin9_viewer/lib/kookmin9_viewer/test_viewer
+[9.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/kookmin9_viewer': PYTHONPATH=/home/yoon/xycar_ws/build/kookmin9_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/kookmin9_viewer/build --no-deps symlink_data --force
+[9.030s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_cam/share/ament_index/resource_index/packages/my_cam
+[9.030s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_cam/share/my_cam/package.xml
+[9.031s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_cam/lib/my_cam/cam_viewer
+[9.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/my_cam': PYTHONPATH=/home/yoon/xycar_ws/build/my_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_cam/build --no-deps symlink_data --force
+[9.196s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_lidar/share/ament_index/resource_index/packages/my_lidar
+[9.196s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.xml
+[9.197s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar/lidar_scan
+[9.197s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/yoon/xycar_ws/install/my_lidar/lib/my_lidar/lidar_viewer
+[9.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoon/xycar_ws/build/my_lidar': PYTHONPATH=/home/yoon/xycar_ws/build/my_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_lidar/build --no-deps symlink_data --force
+[9.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('kookmin9_viewer', 'pythonpath_develop')
+[9.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath_develop.ps1'
+[9.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/kookmin9_viewer' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/kookmin9_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/kookmin9_viewer/build --no-deps symlink_data --force
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath_develop.dsv'
+[9.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath_develop.sh'
+[9.919s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer' for CMake module files
+[9.921s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer' for CMake config files
+[9.924s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer/lib'
+[9.925s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer/bin'
+[9.925s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer/lib/pkgconfig/kookmin9_viewer.pc'
+[9.925s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages'
+[9.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('kookmin9_viewer', 'pythonpath')
+[9.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath.ps1'
+[9.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath.dsv'
+[9.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/hook/pythonpath.sh'
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/kookmin9_viewer/bin'
+[9.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kookmin9_viewer)
+[9.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.ps1'
+[9.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.dsv'
+[9.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.sh'
+[9.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.bash'
+[9.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer/package.zsh'
+[9.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/kookmin9_viewer/share/colcon-core/packages/kookmin9_viewer)
+[9.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cam', 'pythonpath_develop')
+[9.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_cam/share/my_cam/hook/pythonpath_develop.ps1'
+[9.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/my_cam' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_cam/build --no-deps symlink_data --force
+[9.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/my_cam/share/my_cam/hook/pythonpath_develop.dsv'
+[9.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_cam/share/my_cam/hook/pythonpath_develop.sh'
+[9.968s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam' for CMake module files
+[9.970s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam' for CMake config files
+[9.973s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam/lib'
+[9.973s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam/bin'
+[9.973s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam/lib/pkgconfig/my_cam.pc'
+[9.974s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam/lib/python3.10/site-packages'
+[9.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cam', 'pythonpath')
+[9.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/pythonpath.ps1'
+[9.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/pythonpath.dsv'
+[9.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_cam/share/my_cam/hook/pythonpath.sh'
+[9.978s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_cam/bin'
+[9.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cam)
+[9.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_cam/share/my_cam/package.ps1'
+[9.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/my_cam/share/my_cam/package.dsv'
+[9.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_cam/share/my_cam/package.sh'
+[9.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_cam/share/my_cam/package.bash'
+[9.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_cam/share/my_cam/package.zsh'
+[9.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/my_cam/share/colcon-core/packages/my_cam)
+[10.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_lidar', 'pythonpath_develop')
+[10.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_lidar/share/my_lidar/hook/pythonpath_develop.ps1'
+[10.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoon/xycar_ws/build/my_lidar' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/my_lidar/build --no-deps symlink_data --force
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/build/my_lidar/share/my_lidar/hook/pythonpath_develop.dsv'
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/build/my_lidar/share/my_lidar/hook/pythonpath_develop.sh'
+[10.109s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar' for CMake module files
+[10.110s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar' for CMake config files
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar/lib'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar/bin'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar/lib/pkgconfig/my_lidar.pc'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar/lib/python3.10/site-packages'
+[10.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_lidar', 'pythonpath')
+[10.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/pythonpath.ps1'
+[10.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/pythonpath.dsv'
+[10.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/hook/pythonpath.sh'
+[10.116s] Level 1:colcon.colcon_core.environment:checking '/home/yoon/xycar_ws/install/my_lidar/bin'
+[10.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_lidar)
+[10.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.ps1'
+[10.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.dsv'
+[10.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.sh'
+[10.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.bash'
+[10.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoon/xycar_ws/install/my_lidar/share/my_lidar/package.zsh'
+[10.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoon/xycar_ws/install/my_lidar/share/colcon-core/packages/my_lidar)
+[10.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.226s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[10.227s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoon/xycar_ws/install/local_setup.ps1'
+[10.230s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yoon/xycar_ws/install/_local_setup_util_ps1.py'
+[10.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoon/xycar_ws/install/setup.ps1'
+[10.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoon/xycar_ws/install/local_setup.sh'
+[10.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yoon/xycar_ws/install/_local_setup_util_sh.py'
+[10.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoon/xycar_ws/install/setup.sh'
+[10.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoon/xycar_ws/install/local_setup.bash'
+[10.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoon/xycar_ws/install/setup.bash'
+[10.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoon/xycar_ws/install/local_setup.zsh'
+[10.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoon/xycar_ws/install/setup.zsh'

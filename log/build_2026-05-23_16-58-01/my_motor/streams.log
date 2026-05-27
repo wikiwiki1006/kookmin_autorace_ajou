@@ -1,0 +1,41 @@
+[4.068s] Invoking command in '/home/yoon/xycar_ws/build/my_motor': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build
+[4.763s] running develop
+[5.174s] Removing /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my-motor.egg-link (link to .)
+[5.302s] Invoked command in '/home/yoon/xycar_ws/build/my_motor' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoon/xycar_ws/build/my_motor/build
+[5.306s] Invoking command in '/home/yoon/xycar_ws/src/my_motor': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_motor build --build-base /home/yoon/xycar_ws/build/my_motor/build install --record /home/yoon/xycar_ws/build/my_motor/install.log --single-version-externally-managed install_data --force
+[5.909s] running egg_info
+[5.910s] writing ../../build/my_motor/my_motor.egg-info/PKG-INFO
+[5.911s] writing dependency_links to ../../build/my_motor/my_motor.egg-info/dependency_links.txt
+[5.911s] writing entry points to ../../build/my_motor/my_motor.egg-info/entry_points.txt
+[5.911s] writing requirements to ../../build/my_motor/my_motor.egg-info/requires.txt
+[5.912s] writing top-level names to ../../build/my_motor/my_motor.egg-info/top_level.txt
+[5.916s] reading manifest file '../../build/my_motor/my_motor.egg-info/SOURCES.txt'
+[5.917s] adding license file 'LICENSE'
+[5.918s] writing manifest file '../../build/my_motor/my_motor.egg-info/SOURCES.txt'
+[5.919s] running build
+[5.919s] running build_py
+[5.919s] creating /home/yoon/xycar_ws/build/my_motor/build
+[5.920s] creating /home/yoon/xycar_ws/build/my_motor/build/lib
+[5.922s] creating /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor
+[5.924s] copying my_motor/go_stop.py -> /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor
+[5.925s] copying my_motor/go.py -> /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor
+[5.926s] copying my_motor/__init__.py -> /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor
+[5.927s] running install
+[5.927s] running install_lib
+[5.929s] creating /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor
+[5.931s] copying /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor/go_stop.py -> /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor
+[5.931s] copying /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor/go.py -> /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor
+[5.933s] copying /home/yoon/xycar_ws/build/my_motor/build/lib/my_motor/__init__.py -> /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor
+[5.936s] byte-compiling /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor/go_stop.py to go_stop.cpython-310.pyc
+[5.938s] byte-compiling /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor/go.py to go.cpython-310.pyc
+[5.939s] byte-compiling /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor/__init__.py to __init__.cpython-310.pyc
+[5.939s] running install_data
+[5.939s] copying resource/my_motor -> /home/yoon/xycar_ws/install/my_motor/share/ament_index/resource_index/packages
+[5.939s] copying package.xml -> /home/yoon/xycar_ws/install/my_motor/share/my_motor
+[5.940s] running install_egg_info
+[5.940s] Copying ../../build/my_motor/my_motor.egg-info to /home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages/my_motor-0.0.0-py3.10.egg-info
+[5.941s] running install_scripts
+[6.007s] Installing go script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[6.010s] Installing go_stop script to /home/yoon/xycar_ws/install/my_motor/lib/my_motor
+[6.010s] writing list of installed files to '/home/yoon/xycar_ws/build/my_motor/install.log'
+[6.209s] Invoked command in '/home/yoon/xycar_ws/src/my_motor' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/my_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/my_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_motor build --build-base /home/yoon/xycar_ws/build/my_motor/build install --record /home/yoon/xycar_ws/build/my_motor/install.log --single-version-externally-managed install_data --force

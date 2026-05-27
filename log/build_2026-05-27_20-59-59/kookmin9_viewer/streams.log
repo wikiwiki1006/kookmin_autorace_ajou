@@ -1,0 +1,19 @@
+[2.345s] Invoking command in '/home/yoon/xycar_ws/build/kookmin9_viewer': PYTHONPATH=/home/yoon/xycar_ws/build/kookmin9_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/kookmin9_viewer/build --no-deps symlink_data --force
+[2.846s] running develop
+[3.126s] running egg_info
+[3.126s] writing kookmin9_viewer.egg-info/PKG-INFO
+[3.127s] writing dependency_links to kookmin9_viewer.egg-info/dependency_links.txt
+[3.127s] writing entry points to kookmin9_viewer.egg-info/entry_points.txt
+[3.127s] writing requirements to kookmin9_viewer.egg-info/requires.txt
+[3.128s] writing top-level names to kookmin9_viewer.egg-info/top_level.txt
+[3.131s] reading manifest file 'kookmin9_viewer.egg-info/SOURCES.txt'
+[3.132s] writing manifest file 'kookmin9_viewer.egg-info/SOURCES.txt'
+[3.135s] running build_ext
+[3.135s] Creating /home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages/kookmin9-viewer.egg-link (link to .)
+[3.137s] Installing test_viewer script to /home/yoon/xycar_ws/install/kookmin9_viewer/lib/kookmin9_viewer
+[3.137s] 
+[3.138s] Installed /home/yoon/xycar_ws/build/kookmin9_viewer
+[3.138s] running symlink_data
+[3.138s] symbolically linking /home/yoon/xycar_ws/build/kookmin9_viewer/resource/kookmin9_viewer -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/ament_index/resource_index/packages
+[3.141s] symbolically linking /home/yoon/xycar_ws/build/kookmin9_viewer/package.xml -> /home/yoon/xycar_ws/install/kookmin9_viewer/share/kookmin9_viewer
+[3.237s] Invoked command in '/home/yoon/xycar_ws/build/kookmin9_viewer' returned '0': PYTHONPATH=/home/yoon/xycar_ws/build/kookmin9_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoon/xycar_ws/install/kookmin9_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoon/xycar_ws/build/kookmin9_viewer/build --no-deps symlink_data --force
