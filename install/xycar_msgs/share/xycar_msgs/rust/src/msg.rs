@@ -1,1 +1,0 @@
-/home/yoon/xycar_ws/build/xycar_msgs/rosidl_generator_rs/xycar_msgs/rust/src/msg.rs

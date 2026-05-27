@@ -1,6 +1,12 @@
+.vscode/
+.DS_Store
+*.user
+
 devel/
 logs/
+log/
 build/
+install/
 bin/
 lib/
 msg_gen/

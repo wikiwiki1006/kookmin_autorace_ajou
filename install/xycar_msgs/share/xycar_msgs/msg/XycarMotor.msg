@@ -1,1 +1,0 @@
-/home/yoon/xycar_ws/src/xycar_msgs/msg/XycarMotor.msg

@@ -1,1 +1,0 @@
-/home/yoon/xycar_ws/build/xycar_msgs/rosidl_generator_cpp/xycar_msgs/msg/xycar_ultrasonic.hpp
